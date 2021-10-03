@@ -7,13 +7,13 @@ The purpose of this analysis is to analyze the weather to invest in 'surf n shak
 
 ## Results
 
-Summary Statistics for June:
+**Summary Statistics for June:**
 
    We are filtering date column in measurements table to display june month's data, converting it to a list and dataframe to show summary statistics for june.
 
 ![](https://github.com/Nikhila999/surfs_up/blob/main/images/june_temp.png)
 
-Summary Statistics for December:
+**Summary Statistics for December:**
 
    We are filtering date column in measurements table to display december month's data, converting it to a list and dataframe to show summary statistics for december.
 
