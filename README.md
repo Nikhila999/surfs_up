@@ -8,14 +8,16 @@ The purpose of this analysis is to analyze the weather to invest in 'surf n shak
 ## Results
 
 Summary Statistics for June:
-    We are filtering date column in measurements table to display june month's data, converting it to a list and dataframe to show summary statistics for june.
 
--- add june image
+   We are filtering date column in measurements table to display june month's data, converting it to a list and dataframe to show summary statistics for june.
+
+![](https://github.com/Nikhila999/surfs_up/blob/main/images/june_temp.png)
 
 Summary Statistics for December:
-    We are filtering date column in measurements table to display december month's data, converting it to a list and dataframe to show summary statistics for december.
 
--- add dec image
+   We are filtering date column in measurements table to display december month's data, converting it to a list and dataframe to show summary statistics for december.
+
+![](https://github.com/Nikhila999/surfs_up/blob/main/images/dec_temp.png)
 
 Looking at the summary statistics for june and december, we are making following observations:
 - Number of records in june is 1700 and december is 1517.
@@ -33,3 +35,5 @@ To answer the question about running the store through out the year, it would al
         
     # Write a query that filters the Measurement table to retrieve the precipitation for the month of December. 
     dec_prcp = session.query(Measurement.prcp).filter(extract('month', Measurement.date) == 12)
+
+[June Precipitation](https://github.com/Nikhila999/surfs_up/blob/main/images/june_prcp.png)<p>&nbsp;</p>[December Precipitation](https://github.com/Nikhila999/surfs_up/blob/main/images/dec_prcp.png)
